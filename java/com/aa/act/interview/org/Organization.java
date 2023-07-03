@@ -21,6 +21,7 @@ public abstract class Organization {
      */
     public Optional<Position> hire(Name person, String title) {
         //your code here
+
         return Optional.empty();
     }
 
