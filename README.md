@@ -14,5 +14,5 @@ Requirements for the Coding Evaluation for Java:
 1. Made sure I had java 15 or up
 ![Alt text](cmd_UrVBNiY0Sq.png)
 
-
+Then we close the repo and make sure that we can fork this git repo afterwards
 ![Alt text](GitHubDesktop_yYZlXBefwM.png)

@@ -21,7 +21,35 @@ public abstract class Organization {
      */
     public Optional<Position> hire(Name person, String title) {
         //your code here
+        Optional<Position> position = findPositionbyTitle(root,title); // We would want to initialize the position
+        if(position.isPresent()){                                      //
+            Position foundPosition = position.get();
+            if (!foundPosition.isFilled()){
+                Employee employee = new Employee(makeIdentifier(), person);
+                foundPosition.setEmployee(Optional.of(employee));
+                return Optional.of(foundPosition);
+            }
+        }
         return Optional.empty();
+    }
+
+    private Optional<Position> findPositionbyTitle(Position position, String title){
+        if (position.getTitle().equals(title)){
+            return Optional.of(position);
+        }
+
+        for (Position directReport : position.getDirectReports()){
+            Optional<Position> foundPosition = findPositionbyTitle(directReport, title);
+            if(foundPosition.isPresent()){
+                return foundPosition;
+            }
+        }
+        return Optional.empty();
+    }
+
+
+    private int makeIdentifier(){ //Identifier with adding a number value 
+        return 0;
     }
 
     @Override
