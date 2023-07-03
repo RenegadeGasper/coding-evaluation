@@ -7,7 +7,9 @@ These projects are intended to help AA interviewers to evaluate the coding skill
 
 Requirements for the Coding Evaluation for Java:
 1. Made sure I had java 15 or up
-   ![Alt text](cmd_UrVBNiY0Sq.png)
+![https://puu.sh/JKp9r/cfbd20c4b8.png](Pictures/img.png)
+2. Use IntelliJ IDEA
 
-Then we close the repo and make sure that we can fork this git repo afterwards
-![cmd_UrVBNiY0Sq.png](..%2F..%2FOneDrive%2FDocuments%2FShareX%2FScreenshots%2F2023-07%2Fcmd_UrVBNiY0Sq.png)
+3. Connect to GitHub and show link if finished
+   ![img_1.png](Pictures/img_1.png)
+4. Close the repo and make sure that we can fork this git repo afterwards
