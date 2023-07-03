@@ -13,3 +13,4 @@ Requirements for the Coding Evaluation for Java:
 3. Connect to GitHub and show link if finished
    ![img_1.png](Pictures/img_1.png)
 4. Close the repo and make sure that we can fork this git repo afterwards
+![img2.png](Pictures%2Fimg2.png)
