@@ -2,7 +2,7 @@ package com.aa.act.interview.org;
 
 import java.util.Optional;
 
-public abstract class Organization {
+public abstract class Organization{
 
     private Position root;
     private int indexCounter;
