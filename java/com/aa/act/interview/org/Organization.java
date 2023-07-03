@@ -33,11 +33,19 @@ public abstract class Organization {
                 return Optional.of(foundPosition);
             }
         }
+        /*
+        Hire Method would require the Position and the name from the other classes
+        We would need to:
+          1. Check if they have a position, if so then we continue
+          2. Apply the employee value with a counter (probably incremental based on input)
+          3. Return the position and value of the employee (if not, return Optional.empty())
+        * */
+
         return Optional.empty();
     }
 
-    private int index(){
-        return indexCounter++;
+    private int index(){        // We would just need an index where each  input will apply the position of each
+        return indexCounter++;  // We could implement something more different but in terms of argument we just want it to be incremental
     }
 
     private Optional<Position> findPositionbyTitle(Position position, String title){
